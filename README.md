@@ -2,6 +2,14 @@
 
 Runnable .NET 9 console projects demonstrating the Gang of Four design patterns.
 
+## Build the complete solution
+
+Open `DesignPatterns.sln` in Visual Studio, or build all projects from the repository root:
+
+```powershell
+dotnet build DesignPatterns.sln
+```
+
 ## Creational patterns
 
 - [Singleton](Singleton)
