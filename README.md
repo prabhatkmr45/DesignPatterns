@@ -43,3 +43,4 @@ dotnet run
 ## Additional principles and techniques
 
 - [Dependency Injection](DependencyInjection)
+- [SOLID Principles](SOLID)
