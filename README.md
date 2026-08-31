@@ -39,3 +39,7 @@ Open any project folder and run:
 ```powershell
 dotnet run
 ```
+
+## Additional principles and techniques
+
+- [Dependency Injection](DependencyInjection)
