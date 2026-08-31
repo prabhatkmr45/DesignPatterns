@@ -1,5 +1,7 @@
 namespace SOLID.InterfaceSegregation;
 
+// ISP: printing and scanning are separate, focused contracts.
+// BasicPrinter is not forced to implement scanning it cannot support.
 public interface IPrinter
 {
     void Print(string document);

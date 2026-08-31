@@ -1,5 +1,7 @@
 namespace SOLID.OpenClosed;
 
+// OCP: PriceCalculator is closed to modification but open to new behavior through IDiscountPolicy.
+// Adding another discount requires a new class, not edits to the calculator.
 public interface IDiscountPolicy
 {
     decimal Apply(decimal total);

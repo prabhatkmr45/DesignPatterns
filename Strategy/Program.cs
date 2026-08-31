@@ -1,5 +1,7 @@
 namespace Strategy;
 
+// Strategy sample: each IShippingStrategy encapsulates a replaceable pricing algorithm.
+// Checkout uses whichever strategy is injected and remains unchanged when new algorithms are added.
 public interface IShippingStrategy
 {
     decimal Calculate(decimal orderTotal);

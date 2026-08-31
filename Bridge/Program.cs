@@ -1,5 +1,7 @@
 namespace Bridge;
 
+// Bridge sample: Message is the abstraction hierarchy and IMessageSender is the implementation hierarchy.
+// Combining them at runtime lets message types and delivery channels evolve independently.
 public interface IMessageSender
 {
     void Send(string subject, string body);

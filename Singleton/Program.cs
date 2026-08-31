@@ -1,5 +1,6 @@
 ﻿namespace Singleton;
 
+// Client: obtains the singleton twice and verifies both references identify the same object.
 class Program
 {
     static void Main()

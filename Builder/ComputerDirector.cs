@@ -1,5 +1,6 @@
 namespace Builder;
 
+// Director: defines reusable construction recipes without knowing product internals.
 public sealed class ComputerDirector(IComputerBuilder builder)
 {
     public Computer BuildOfficeComputer()

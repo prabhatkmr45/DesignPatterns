@@ -1,5 +1,7 @@
 namespace Facade;
 
+// Facade sample: the three services form a complex subsystem.
+// OrderFacade coordinates them behind one simple PlaceOrder operation for the client.
 public sealed class InventoryService
 {
     public bool IsAvailable(string product) { Console.WriteLine($"Inventory reserved: {product}"); return true; }

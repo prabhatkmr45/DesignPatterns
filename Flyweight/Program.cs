@@ -1,5 +1,7 @@
 namespace Flyweight;
 
+// Flyweight sample: TreeType holds shared intrinsic state, while Tree stores unique coordinates.
+// TreeTypeFactory caches flyweights so identical tree types reuse the same object.
 public sealed class TreeType(string name, string color)
 {
     public void Draw(int x, int y) => Console.WriteLine($"Drawing {color} {name} at ({x}, {y}).");

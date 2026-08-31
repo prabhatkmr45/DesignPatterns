@@ -1,5 +1,7 @@
 namespace ChainOfResponsibility;
 
+// Chain sample: each SupportHandler either handles a request or forwards it to the next handler.
+// The sender does not need to know which support level will accept the request.
 public sealed record SupportRequest(string Issue, int Severity);
 
 public abstract class SupportHandler

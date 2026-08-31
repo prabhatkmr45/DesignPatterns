@@ -1,5 +1,7 @@
 namespace TemplateMethod;
 
+// Template Method sample: Export fixes the algorithm sequence in the base class.
+// Subclasses customize only the formatting step while shared read/save steps remain reusable.
 public abstract class DataExporter
 {
     public void Export()

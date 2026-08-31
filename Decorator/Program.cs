@@ -1,5 +1,7 @@
 namespace Decorator;
 
+// Decorator sample: Espresso is the base component; decorators wrap another ICoffee and add cost/description.
+// Multiple decorators can be stacked at runtime without changing Espresso.
 public interface ICoffee
 {
     string Description { get; }

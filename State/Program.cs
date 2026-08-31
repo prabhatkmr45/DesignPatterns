@@ -1,5 +1,7 @@
 namespace State;
 
+// State sample: Order delegates transition behavior to its current IOrderState object.
+// Replacing the state object changes behavior without a large conditional statement.
 public interface IOrderState
 {
     void Advance(Order order);

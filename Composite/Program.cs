@@ -1,5 +1,7 @@
 namespace Composite;
 
+// Composite sample: FileItem is a leaf and Folder is a composite containing more IFileSystemItems.
+// Clients call Display and GetSize uniformly without checking whether an item is a file or folder.
 public interface IFileSystemItem
 {
     int GetSize();

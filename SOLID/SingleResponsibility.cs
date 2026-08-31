@@ -1,5 +1,7 @@
 namespace SOLID.SingleResponsibility;
 
+// SRP: Invoice stores data, InvoiceCalculator calculates, and InvoiceRepository persists.
+// Each class therefore has one primary reason to change.
 public sealed record Invoice(string Number, decimal Amount);
 
 public sealed class InvoiceCalculator

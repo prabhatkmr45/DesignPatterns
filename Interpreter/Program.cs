@@ -1,5 +1,7 @@
 namespace Interpreter;
 
+// Interpreter sample: each expression class represents one grammar rule.
+// Composite expressions recursively interpret their child expressions to evaluate the syntax tree.
 public interface IExpression
 {
     int Interpret();

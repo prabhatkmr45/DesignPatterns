@@ -1,5 +1,7 @@
 namespace SOLID.LiskovSubstitution;
 
+// LSP: every ShippingMethod subtype honors the same cost-calculation contract.
+// Checkout can substitute StandardShipping or ExpressShipping without changing correctness.
 public abstract class ShippingMethod
 {
     public abstract decimal CalculateCost(decimal orderTotal);

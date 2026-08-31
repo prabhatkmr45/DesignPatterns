@@ -1,5 +1,6 @@
 ﻿namespace DependencyInjection;
 
+// Composition root: registers mappings and lifetimes, builds the container, and resolves the application service.
 class Program
 {
     static void Main()

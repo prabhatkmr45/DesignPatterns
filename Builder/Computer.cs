@@ -1,5 +1,6 @@
 namespace Builder;
 
+// Product: the complex object assembled incrementally by a builder.
 public sealed class Computer
 {
     public string Processor { get; internal set; } = string.Empty;

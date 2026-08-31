@@ -1,5 +1,6 @@
 namespace DependencyInjection;
 
+// Concrete repository registered with the container as a singleton service.
 public sealed class InMemoryOrderRepository : IOrderRepository
 {
     private readonly Dictionary<string, string> _orders = [];

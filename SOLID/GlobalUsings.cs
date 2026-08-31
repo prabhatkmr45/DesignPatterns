@@ -1,3 +1,4 @@
+// These global imports keep Program focused on executing the five demos rather than namespace plumbing.
 global using SOLID.DependencyInversion;
 global using SOLID.InterfaceSegregation;
 global using SOLID.LiskovSubstitution;

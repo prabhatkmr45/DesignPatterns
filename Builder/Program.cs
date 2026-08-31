@@ -1,5 +1,6 @@
 ﻿namespace Builder;
 
+// Client: asks the director for predefined builds and consumes the resulting products.
 class Program
 {
     static void Main()

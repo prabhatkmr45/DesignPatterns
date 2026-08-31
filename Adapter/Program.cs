@@ -1,5 +1,7 @@
 namespace Adapter;
 
+// Adapter sample: IPaymentProcessor is the target API, LegacyPaymentGateway is the adaptee,
+// and PaymentGatewayAdapter translates the target call into the legacy call.
 public interface IPaymentProcessor
 {
     void Pay(decimal amount);

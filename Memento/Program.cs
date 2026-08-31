@@ -1,5 +1,7 @@
 namespace Memento;
 
+// Memento sample: EditorMemento captures originator state and History is its caretaker.
+// TextEditor creates and restores snapshots without exposing restoration logic to the client.
 public sealed record EditorMemento(string Text);
 
 public sealed class TextEditor

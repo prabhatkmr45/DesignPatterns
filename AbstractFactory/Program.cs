@@ -1,5 +1,6 @@
 ﻿namespace AbstractFactory;
 
+// Client/composition root: switches an entire product family by supplying a different factory.
 class Program
 {
     static void Main()

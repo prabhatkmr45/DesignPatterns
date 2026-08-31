@@ -1,5 +1,7 @@
 namespace Observer;
 
+// Observer sample: StockTicker is the subject and Investor objects are observers.
+// A price change causes the subject to notify every current subscriber.
 public interface IStockObserver
 {
     void Update(string symbol, decimal price);

@@ -1,5 +1,7 @@
 namespace Command;
 
+// Command sample: TurnOnLightCommand packages a request and its undo operation as an object.
+// RemoteControl invokes commands and retains history without depending on the Light receiver directly.
 public interface ICommand
 {
     void Execute();

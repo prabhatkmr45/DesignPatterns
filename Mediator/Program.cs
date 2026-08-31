@@ -1,5 +1,7 @@
 namespace Mediator;
 
+// Mediator sample: ChatRoom centralizes communication between User colleagues.
+// Users send through the mediator and therefore never hold references to one another.
 public interface IChatMediator
 {
     void Register(User user);

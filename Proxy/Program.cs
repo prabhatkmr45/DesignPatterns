@@ -1,5 +1,7 @@
 namespace Proxy;
 
+// Proxy sample: ImageProxy implements the same interface as the real image.
+// It controls access by lazily loading HighResolutionImage once and reusing it thereafter.
 public interface IImage
 {
     void Display();

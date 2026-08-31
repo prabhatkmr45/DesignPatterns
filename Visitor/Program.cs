@@ -1,5 +1,7 @@
 namespace Visitor;
 
+// Visitor sample: each shape accepts a visitor and dispatches to the matching Visit overload.
+// AreaVisitor adds an operation across shape types without placing calculation logic in the shapes.
 public interface IShape
 {
     void Accept(IShapeVisitor visitor);

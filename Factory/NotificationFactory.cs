@@ -1,5 +1,6 @@
 namespace Factory;
 
+// Factory: centralizes concrete-object selection so callers do not invoke constructors.
 public static class NotificationFactory
 {
     public static INotification Create(NotificationType type)

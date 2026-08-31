@@ -2,6 +2,8 @@ using System.Collections;
 
 namespace Iterator;
 
+// Iterator sample: Playlist owns the collection, while PlaylistIterator tracks traversal state.
+// IEnumerable support lets clients traverse with foreach without accessing the internal list.
 public sealed class Playlist : IEnumerable<string>
 {
     private readonly List<string> _songs = [];

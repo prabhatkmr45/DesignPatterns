@@ -1,5 +1,6 @@
 namespace Builder;
 
+// Concrete builder: stores work in progress and returns a finished Computer.
 public sealed class ComputerBuilder : IComputerBuilder
 {
     private Computer _computer = new();

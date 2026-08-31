@@ -3,6 +3,7 @@ namespace Singleton;
 /// <summary>
 /// A thread-safe singleton that is created only when it is first requested.
 /// </summary>
+// Singleton: sealed with a private constructor and exposed through one lazy, thread-safe instance.
 public sealed class Logger
 {
     private static readonly Lazy<Logger> LazyInstance =

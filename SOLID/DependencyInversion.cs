@@ -1,5 +1,7 @@
 namespace SOLID.DependencyInversion;
 
+// DIP: high-level NotificationService depends on IMessageSender rather than EmailSender.
+// Concrete delivery details are supplied from outside the service.
 public interface IMessageSender
 {
     void Send(string message);

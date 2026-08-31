@@ -1,5 +1,6 @@
 namespace DependencyInjection;
 
+// Consumer: constructor parameters explicitly declare everything needed to process an order.
 public sealed class OrderProcessor(
     IOrderRepository orderRepository,
     INotificationService notificationService)
